@@ -66,7 +66,7 @@ const App = () => {
   }
 
   return (
-    <div className="w-full h-screen bg-slate-600 gap-3 flex justify-center items-center">
+    <div className="w-full pb-6 bg-slate-600 gap-3 flex flex-col md:flex-row md:h-screen justify-center items-center">
       <div className="w-[400px] h-[400px] bg-slate-300 rounded-xl shadow-[4px_5px_10px_10px_rgba(0,0,0,0.1)] p-6  ">
         <h1 className="mt-[20px] text-center py-4 text-3xl font-bold text-amber-600  bg-slate-600">
           Todo
